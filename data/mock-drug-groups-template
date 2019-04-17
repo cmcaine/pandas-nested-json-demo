@@ -1,0 +1,17 @@
+https://next.json-generator.com/
+
+[
+  {
+    'repeat(5, 10)': {
+      id: '{{integer(100,999)}}',
+      name: '{{firstName()}}',
+      drugs: [{ 'repeat(1, 10)' : {
+        id: '{{integer(100,999)}}',
+      	name: '{{firstName()}}',
+        testables: [{ 'repeat(1, 8)' : {
+                  id: '{{integer(100,999)}}',
+      			  name: '{{firstName()}}',
+        }}]
+      }}]
+  }}
+]
